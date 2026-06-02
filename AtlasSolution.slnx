@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AtlasAPI/AtlasAPI.csproj" />
+  <Project Path="atlasApp/atlasApp.csproj" />
+</Solution>
