@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="AtlasAPI/AtlasAPI.csproj" />
   <Project Path="atlasApp/atlasApp.csproj" />
 </Solution>
