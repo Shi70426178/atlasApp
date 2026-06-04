@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using System.Text;
+using System.Text.Json;
+using Xamarin.Android.Net;
 
 namespace atlasApp;
 

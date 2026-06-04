@@ -35,7 +35,7 @@ public class AuthController : ControllerBase
     }
 
     [HttpPost("login")]
-    public IActionResult Login(User loginUser)
+    public IActionResult Login(LoginModel loginUser)
     {
         var user = _context.Users.FirstOrDefault(x =>
             x.Email == loginUser.Email &&
@@ -46,6 +46,13 @@ public class AuthController : ControllerBase
             return Unauthorized("Invalid email or password");
         }
 
-        return Ok("Login successful");
+        return Ok(new
+        {
+            Message = "Login successful",
+            UserName = user.UserName,
+            Role = user.Role,
+            Email = user.Email,
+            Branch = user.Branch
+        });
     }
 }
