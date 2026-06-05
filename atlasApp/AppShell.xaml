@@ -3,12 +3,22 @@
     x:Class="atlasApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:atlasApp"
-    Title="atlasApp">
+    xmlns:local="clr-namespace:atlasApp">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Dashboard">
+        <ShellContent
+            Route="DashboardPage"
+            ContentTemplate="{DataTemplate local:DashboardPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Profile">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:ProfilePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Settings">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:SettingsPage}" />
+    </FlyoutItem>
 
 </Shell>

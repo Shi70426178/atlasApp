@@ -32,7 +32,7 @@ public partial class SignupPage : ContentPage
             "application/json");
 
         var response = await client.PostAsync(
-            "http://192.168.1.198:5223/api/auth/signup",
+            "http://192.168.1.204:5223/api/auth/signup",
             content);
 
 

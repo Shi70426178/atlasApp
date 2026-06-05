@@ -9,7 +9,7 @@ public partial class MainPage : ContentPage
     HttpClient client = new HttpClient(
      new AndroidMessageHandler());
 
-    string baseUrl = "http://192.168.1.198:5223/api/auth/";
+    string baseUrl = "http://192.168.1.204:5223/api/auth/";
 
     public MainPage()
     {
@@ -47,7 +47,15 @@ public partial class MainPage : ContentPage
 
             if (response.IsSuccessStatusCode)
             {
-                await DisplayAlertAsync("Success", result, "OK");
+                var loginResponse = JsonSerializer.Deserialize<LoginResponse>(
+                    result,
+                    new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true
+                    });
+
+                await Navigation.PushAsync(
+                    new DashboardPage(loginResponse.UserName));
             }
             else
             {
