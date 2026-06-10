@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.Json;
+using atlasApp.Services;
 
 namespace atlasApp;
 
@@ -32,7 +33,7 @@ public partial class SignupPage : ContentPage
             "application/json");
 
         var response = await client.PostAsync(
-            "http://192.168.1.204:5223/api/auth/signup",
+            ApiConfig.BaseUrl + "api/auth/signup",
             content);
 
 

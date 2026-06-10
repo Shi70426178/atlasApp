@@ -49,6 +49,7 @@ public class AuthController : ControllerBase
         return Ok(new
         {
             Message = "Login successful",
+            Id = user.Id,
             UserName = user.UserName,
             Role = user.Role,
             Email = user.Email,

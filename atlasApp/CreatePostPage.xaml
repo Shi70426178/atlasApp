@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="atlasApp.CreatePostPage"
+    Title="Create Post">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="15">
+
+            <Label
+                Text="Create New Post"
+                FontSize="28"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtTitle"
+                Placeholder="Enter Title"/>
+
+            <Editor
+                x:Name="txtDescription"
+                HeightRequest="150"
+                Placeholder="Enter Description"/>
+
+            <Button
+                Text="Save Post"
+                Clicked="SavePost_Clicked"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

@@ -9,7 +9,7 @@ public partial class MainPage : ContentPage
     HttpClient client = new HttpClient(
      new AndroidMessageHandler());
 
-    string baseUrl = "http://192.168.1.204:5223/api/auth/";
+    string baseUrl = "http://192.168.1.198:5223/api/auth/";
 
     public MainPage()
     {
@@ -55,6 +55,7 @@ public partial class MainPage : ContentPage
                     });
 
                 UserSession.UserName = loginResponse.UserName;
+                UserSession.Id = loginResponse.Id;
                 UserSession.Email = loginResponse.Email;
                 UserSession.Role = loginResponse.Role;
                 UserSession.Branch = loginResponse.Branch;

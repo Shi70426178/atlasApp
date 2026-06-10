@@ -17,7 +17,7 @@ public partial class EditProfilePage : ContentPage
         UserSession.Email = txtEmail.Text;
         UserSession.Branch = txtBranch.Text;
 
-        await DisplayAlert(
+        await DisplayAlertAsync(
             "Success",
             "Profile Updated",
             "OK");

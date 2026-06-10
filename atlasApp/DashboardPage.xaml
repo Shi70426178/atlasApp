@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="atlasApp.DashboardPage"
     Title="Dashboard"
-    BackgroundColor="#F3F4F8">
+    BackgroundColor="{StaticResource BackgroundColor}">
 
     <ScrollView>
 
@@ -12,87 +12,254 @@
             Padding="20"
             Spacing="18">
 
-            <!-- Welcome -->
-            <Label
-                x:Name="lblWelcome"
-                Text="Welcome User 👋"
-                FontSize="30"
-                FontAttributes="Bold"
-                TextColor="#1E293B" />
+            <!-- Header -->
+            <VerticalStackLayout>
 
-            <!-- Dashboard Summary -->
-            <Frame
-                BackgroundColor="White"
-                CornerRadius="15"
-                Padding="15"
-                HasShadow="True">
+                <Label
+                    x:Name="lblGreeting"
+                    FontSize="16"
+                    TextColor="{StaticResource TextSecondary}" />
 
-                <VerticalStackLayout>
+                <Label
+                    x:Name="lblWelcome"
+                    FontSize="32"
+                    FontAttributes="Bold"
+                    TextColor="{StaticResource TextPrimary}" />
+
+                <Label
+                    Text="Track your shipments efficiently"
+                    FontSize="14"
+                    TextColor="{StaticResource TextSecondary}" />
+
+            </VerticalStackLayout>
+
+            <!-- Quick Actions -->
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                Spacing="15">
+
+                <Border
+                    WidthRequest="65"
+                    HeightRequest="65"
+                    BackgroundColor="#DBEAFE"
+                    StrokeThickness="0">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="32"/>
+                    </Border.StrokeShape>
+                    <Label
+    Text="➕"
+    FontSize="24"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer
+            Tapped="CreatePost_Tapped"/>
+                        </Label.GestureRecognizers>
+
+                    </Label>
+                </Border>
+
+                <Border
+                    WidthRequest="65"
+                    HeightRequest="65"
+                    BackgroundColor="#DBEAFE"
+                    StrokeThickness="0">
+
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="32"/>
+                    </Border.StrokeShape>
 
                     <Label
-                        Text="Today's Summary"
-                        FontSize="20"
-                        FontAttributes="Bold"
-                        TextColor="#1E293B" />
+                        Text="📦"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Border>
 
-                    <Grid
-                        ColumnDefinitions="*,*"
-                        RowDefinitions="Auto,Auto"
-                        Margin="0,15,0,0">
+                <Border
+                    WidthRequest="65"
+                    HeightRequest="65"
+                    BackgroundColor="#DBEAFE"
+                    StrokeThickness="0">
 
-                        <VerticalStackLayout>
-                            <Label
-                                Text="📦 Total Shipments"
-                                TextColor="#64748B" />
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="32"/>
+                    </Border.StrokeShape>
 
-                            <Label
-                                Text="124"
-                                FontSize="28"
-                                FontAttributes="Bold"
-                                TextColor="#2563EB" />
-                        </VerticalStackLayout>
+                    <Label
+                        Text="📅"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Border>
 
-                        <VerticalStackLayout Grid.Column="1">
-                            <Label
-                                Text="🚚 In Transit"
-                                TextColor="#64748B" />
+                <Border
+                    WidthRequest="65"
+                    HeightRequest="65"
+                    BackgroundColor="#DBEAFE"
+                    StrokeThickness="0">
 
-                            <Label
-                                Text="45"
-                                FontSize="28"
-                                FontAttributes="Bold"
-                                TextColor="#F97316" />
-                        </VerticalStackLayout>
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="32"/>
+                    </Border.StrokeShape>
 
-                    </Grid>
+                    <Label
+                        Text="🔍"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"/>
+                </Border>
 
-                </VerticalStackLayout>
+            </HorizontalStackLayout>
 
-            </Frame>
+            <!-- Hero Shipment Card -->
+            <Border
+                BackgroundColor="#2563EB"
+                Padding="20"
+                StrokeThickness="0">
 
-            <!-- Shipment Updates -->
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="25"/>
+                </Border.StrokeShape>
+
+                <Grid ColumnDefinitions="*,Auto">
+
+                    <VerticalStackLayout>
+
+                        <Label
+                            Text="Current Shipment"
+                            TextColor="White"
+                            FontSize="16"/>
+
+                        <Label
+                            Text="ATL-20458"
+                            FontSize="28"
+                            FontAttributes="Bold"
+                            TextColor="White"/>
+
+                        <Label
+                            Text="Delhi → Mumbai"
+                            TextColor="White"/>
+
+                        <Label
+                            Text="Arriving in 24 Minutes"
+                            TextColor="#DBEAFE"/>
+
+                    </VerticalStackLayout>
+
+                    <Label
+                        Grid.Column="1"
+                        Text="🚚"
+                        FontSize="70"/>
+
+                </Grid>
+
+            </Border>
+
+            <!-- Statistics -->
+            <Grid
+                ColumnDefinitions="*,*"
+                RowDefinitions="Auto,Auto"
+                ColumnSpacing="10"
+                RowSpacing="10">
+
+                <Border
+                    Style="{StaticResource DashboardCard}">
+
+                    <VerticalStackLayout>
+                        <Label
+                            Text="124"
+                            FontSize="24"
+                            FontAttributes="Bold"
+                            TextColor="#2563EB"/>
+
+                        <Label
+                            Text="Total Shipments"/>
+                    </VerticalStackLayout>
+
+                </Border>
+
+                <Border
+                    Grid.Column="1"
+                    Style="{StaticResource DashboardCard}">
+
+                    <VerticalStackLayout>
+                        <Label
+                            Text="45"
+                            FontSize="24"
+                            FontAttributes="Bold"
+                            TextColor="#F59E0B"/>
+
+                        <Label
+                            Text="In Transit"/>
+                    </VerticalStackLayout>
+
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Style="{StaticResource DashboardCard}">
+
+                    <VerticalStackLayout>
+                        <Label
+                            Text="58"
+                            FontSize="24"
+                            FontAttributes="Bold"
+                            TextColor="#10B981"/>
+
+                        <Label
+                            Text="Delivered"/>
+                    </VerticalStackLayout>
+
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Style="{StaticResource DashboardCard}">
+
+                    <VerticalStackLayout>
+                        <Label
+                            Text="21"
+                            FontSize="24"
+                            FontAttributes="Bold"
+                            TextColor="#EF4444"/>
+
+                        <Label
+                            Text="Delayed"/>
+                    </VerticalStackLayout>
+
+                </Border>
+
+            </Grid>
+
+            <!-- Recent Shipments -->
             <Label
                 Text="Recent Shipment Updates"
                 FontSize="22"
                 FontAttributes="Bold"
-                TextColor="#1E293B" />
+                TextColor="{StaticResource TextPrimary}" />
 
-            <Frame
-                BackgroundColor="White"
-                CornerRadius="15"
-                Padding="15">
+            <Border
+                Style="{StaticResource DashboardCard}">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20"/>
+                </Border.StrokeShape>
 
                 <VerticalStackLayout>
 
                     <Label
-                        Text="📦 Shipment ATL001 Delivered Successfully"
+                        Text="Shipment ATL001 Delivered"
                         FontSize="17"
                         FontAttributes="Bold"
-                        TextColor="#1E293B" />
+                        TextColor="#10B981" />
 
                     <Label
                         Text="Delivered to Mumbai Distribution Center"
-                        TextColor="#64748B" />
+                        TextColor="{StaticResource TextSecondary}" />
 
                     <Label
                         Text="Today • 09:15 AM"
@@ -101,24 +268,26 @@
 
                 </VerticalStackLayout>
 
-            </Frame>
+            </Border>
 
-            <Frame
-                BackgroundColor="White"
-                CornerRadius="15"
-                Padding="15">
+            <Border
+                Style="{StaticResource DashboardCard}">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20"/>
+                </Border.StrokeShape>
 
                 <VerticalStackLayout>
 
                     <Label
-                        Text="🚚 Shipment ATL002 In Transit"
+                        Text="Shipment ATL002 In Transit"
                         FontSize="17"
                         FontAttributes="Bold"
-                        TextColor="#1E293B" />
+                        TextColor="#2563EB" />
 
                     <Label
                         Text="Departed from Delhi Warehouse"
-                        TextColor="#64748B" />
+                        TextColor="{StaticResource TextSecondary}" />
 
                     <Label
                         Text="Today • 08:30 AM"
@@ -127,24 +296,26 @@
 
                 </VerticalStackLayout>
 
-            </Frame>
+            </Border>
 
-            <Frame
-                BackgroundColor="White"
-                CornerRadius="15"
-                Padding="15">
+            <Border
+                Style="{StaticResource DashboardCard}">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20"/>
+                </Border.StrokeShape>
 
                 <VerticalStackLayout>
 
                     <Label
-                        Text="⚠ Shipment ATL003 Delayed"
+                        Text="Shipment ATL003 Delayed"
                         FontSize="17"
                         FontAttributes="Bold"
-                        TextColor="#DC2626" />
+                        TextColor="#EF4444" />
 
                     <Label
                         Text="Weather conditions causing route delay"
-                        TextColor="#64748B" />
+                        TextColor="{StaticResource TextSecondary}" />
 
                     <Label
                         Text="Yesterday • 06:45 PM"
@@ -153,19 +324,21 @@
 
                 </VerticalStackLayout>
 
-            </Frame>
+            </Border>
 
             <!-- Company Updates -->
             <Label
                 Text="Company Updates"
                 FontSize="22"
                 FontAttributes="Bold"
-                TextColor="#1E293B" />
+                TextColor="{StaticResource TextPrimary}" />
 
-            <Frame
-                BackgroundColor="White"
-                CornerRadius="15"
-                Padding="15">
+            <Border
+                Style="{StaticResource DashboardCard}">
+
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20"/>
+                </Border.StrokeShape>
 
                 <VerticalStackLayout>
 
@@ -173,15 +346,15 @@
                         Text="🚀 New Shipment Tracking Module Released"
                         FontSize="18"
                         FontAttributes="Bold"
-                        TextColor="#1E293B" />
+                        TextColor="{StaticResource TextPrimary}" />
 
                     <Label
                         Text="Users can now monitor shipment movement in real-time with enhanced tracking and delivery visibility."
-                        TextColor="#64748B" />
+                        TextColor="{StaticResource TextSecondary}" />
 
                 </VerticalStackLayout>
 
-            </Frame>
+            </Border>
 
         </VerticalStackLayout>
 

@@ -6,6 +6,7 @@ namespace atlasApp
 {
     public static class UserSession
     {
+        public static int Id { get; set; }
         public static string UserName { get; set; }
         public static string Email { get; set; }
         public static string Role { get; set; }

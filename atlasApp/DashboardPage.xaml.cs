@@ -11,11 +11,24 @@ public partial class DashboardPage : ContentPage
     {
         base.OnAppearing();
 
-        lblWelcome.Text = $"Welcome {UserSession.UserName} 👋";
-    }
+        lblWelcome.Text = UserSession.UserName;
 
+        int hour = DateTime.Now.Hour;
+
+        if (hour < 12)
+            lblGreeting.Text = "Good Morning 👋";
+        else if (hour < 17)
+            lblGreeting.Text = "Good Afternoon ☀️";
+        else
+            lblGreeting.Text = "Good Evening 🌙";
+    }
     private void Menu_Clicked(object sender, EventArgs e)
     {
         Shell.Current.FlyoutIsPresented = true;
+    }
+
+    private async void CreatePost_Tapped(object sender, TappedEventArgs e)
+    {
+        await Navigation.PushAsync(new CreatePostPage());
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using AtlasAPI.Models;
+using AtlasAPI.Data;
 
 namespace AtlasAPI.Data;
 
@@ -9,6 +10,7 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
-
+    public DbSet<Post> Posts { get; set; }
     public DbSet<User> Users => Set<User>();
+
 }
