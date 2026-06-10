@@ -4,35 +4,187 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="atlasApp.DashboardPage"
     Title="Dashboard"
-    BackgroundColor="#121212">
+    BackgroundColor="#F3F4F8">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem
-            Text="☰"
-            Clicked="Menu_Clicked"/>
-    </ContentPage.ToolbarItems>
+    <ScrollView>
 
-    <VerticalStackLayout
-        VerticalOptions="Center"
-        HorizontalOptions="Center"
-        Spacing="20">
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="18">
 
-        <Image
-            Source="logo.png"
-            HeightRequest="100"/>
+            <!-- Welcome -->
+            <Label
+                x:Name="lblWelcome"
+                Text="Welcome User 👋"
+                FontSize="30"
+                FontAttributes="Bold"
+                TextColor="#1E293B" />
 
-        <Label
-            Text="Dashboard"
-            FontSize="32"
-            FontAttributes="Bold"
-            TextColor="White"/>
+            <!-- Dashboard Summary -->
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="15"
+                HasShadow="True">
 
-        <Label
-            x:Name="lblWelcome"
-            Text="Welcome User"
-            FontSize="18"
-            TextColor="LightGray"/>
+                <VerticalStackLayout>
 
-    </VerticalStackLayout>
+                    <Label
+                        Text="Today's Summary"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        TextColor="#1E293B" />
+
+                    <Grid
+                        ColumnDefinitions="*,*"
+                        RowDefinitions="Auto,Auto"
+                        Margin="0,15,0,0">
+
+                        <VerticalStackLayout>
+                            <Label
+                                Text="📦 Total Shipments"
+                                TextColor="#64748B" />
+
+                            <Label
+                                Text="124"
+                                FontSize="28"
+                                FontAttributes="Bold"
+                                TextColor="#2563EB" />
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label
+                                Text="🚚 In Transit"
+                                TextColor="#64748B" />
+
+                            <Label
+                                Text="45"
+                                FontSize="28"
+                                FontAttributes="Bold"
+                                TextColor="#F97316" />
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <!-- Shipment Updates -->
+            <Label
+                Text="Recent Shipment Updates"
+                FontSize="22"
+                FontAttributes="Bold"
+                TextColor="#1E293B" />
+
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="15">
+
+                <VerticalStackLayout>
+
+                    <Label
+                        Text="📦 Shipment ATL001 Delivered Successfully"
+                        FontSize="17"
+                        FontAttributes="Bold"
+                        TextColor="#1E293B" />
+
+                    <Label
+                        Text="Delivered to Mumbai Distribution Center"
+                        TextColor="#64748B" />
+
+                    <Label
+                        Text="Today • 09:15 AM"
+                        FontSize="12"
+                        TextColor="#94A3B8" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="15">
+
+                <VerticalStackLayout>
+
+                    <Label
+                        Text="🚚 Shipment ATL002 In Transit"
+                        FontSize="17"
+                        FontAttributes="Bold"
+                        TextColor="#1E293B" />
+
+                    <Label
+                        Text="Departed from Delhi Warehouse"
+                        TextColor="#64748B" />
+
+                    <Label
+                        Text="Today • 08:30 AM"
+                        FontSize="12"
+                        TextColor="#94A3B8" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="15">
+
+                <VerticalStackLayout>
+
+                    <Label
+                        Text="⚠ Shipment ATL003 Delayed"
+                        FontSize="17"
+                        FontAttributes="Bold"
+                        TextColor="#DC2626" />
+
+                    <Label
+                        Text="Weather conditions causing route delay"
+                        TextColor="#64748B" />
+
+                    <Label
+                        Text="Yesterday • 06:45 PM"
+                        FontSize="12"
+                        TextColor="#94A3B8" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <!-- Company Updates -->
+            <Label
+                Text="Company Updates"
+                FontSize="22"
+                FontAttributes="Bold"
+                TextColor="#1E293B" />
+
+            <Frame
+                BackgroundColor="White"
+                CornerRadius="15"
+                Padding="15">
+
+                <VerticalStackLayout>
+
+                    <Label
+                        Text="🚀 New Shipment Tracking Module Released"
+                        FontSize="18"
+                        FontAttributes="Bold"
+                        TextColor="#1E293B" />
+
+                    <Label
+                        Text="Users can now monitor shipment movement in real-time with enhanced tracking and delivery visibility."
+                        TextColor="#64748B" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
 
 </ContentPage>

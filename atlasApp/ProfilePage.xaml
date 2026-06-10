@@ -1,12 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="atlasApp.ProfilePage">
+    x:Class="atlasApp.ProfilePage"
+    Title="Profile"
+    BackgroundColor="#F5F7FA">
 
-    <VerticalStackLayout Padding="20">
-        <Label
-            Text="Profile Page"
-            FontSize="30" />
-    </VerticalStackLayout>
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="20">
+
+            <!-- Header Card -->
+            <Frame
+                CornerRadius="20"
+                Padding="20"
+                HasShadow="True">
+
+                <VerticalStackLayout
+                    HorizontalOptions="Center">
+
+                    <Label
+                        Text="👤"
+                        FontSize="60"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        Text="Profile"
+                        FontSize="26"
+                        FontAttributes="Bold"/>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <!-- User Information -->
+            <Frame
+                CornerRadius="15"
+                Padding="15"
+                HasShadow="True">
+
+                <VerticalStackLayout
+                    Spacing="12">
+
+                    <Label
+                        Text="User Information"
+                        FontSize="20"
+                        FontAttributes="Bold"/>
+
+                    <Label x:Name="lblUserName"
+       TextColor="Black"/>
+
+                    <Label x:Name="lblEmail"
+       TextColor="Black"/>
+
+                    <Label x:Name="lblRole"
+       TextColor="Black"/>
+
+                    <Label x:Name="lblBranch"
+       TextColor="Black"/>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <!-- Actions -->
+            <Button
+                Text="✏ Edit Profile"
+                HeightRequest="55"
+                CornerRadius="15"
+                Clicked="EditProfile_Clicked"/>
+
+            <Button
+                Text="🏢 About Company"
+                HeightRequest="55"
+                CornerRadius="15"
+                Clicked="AboutCompany_Clicked"/>
+
+            <Button
+                Text="📧 Email Support"
+                HeightRequest="55"
+                CornerRadius="15"
+                Clicked="EmailSupport_Clicked"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
 
 </ContentPage>

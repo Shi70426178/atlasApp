@@ -54,8 +54,12 @@ public partial class MainPage : ContentPage
                         PropertyNameCaseInsensitive = true
                     });
 
-                await Navigation.PushAsync(
-                    new DashboardPage(loginResponse.UserName));
+                UserSession.UserName = loginResponse.UserName;
+                UserSession.Email = loginResponse.Email;
+                UserSession.Role = loginResponse.Role;
+                UserSession.Branch = loginResponse.Branch;
+
+                Application.Current.MainPage = new AppShell();
             }
             else
             {

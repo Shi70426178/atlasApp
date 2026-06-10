@@ -7,10 +7,11 @@ public partial class DashboardPage : ContentPage
         InitializeComponent();
     }
 
-    public DashboardPage(string username)
+    protected override void OnAppearing()
     {
-        InitializeComponent();
-        lblWelcome.Text = "Welcome " + username;
+        base.OnAppearing();
+
+        lblWelcome.Text = $"Welcome {UserSession.UserName} 👋";
     }
 
     private void Menu_Clicked(object sender, EventArgs e)
