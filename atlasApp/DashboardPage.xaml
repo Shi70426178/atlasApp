@@ -327,34 +327,17 @@
             </Border>
 
             <!-- Company Updates -->
+            <!-- Company Updates -->
             <Label
-                Text="Company Updates"
-                FontSize="22"
-                FontAttributes="Bold"
-                TextColor="{StaticResource TextPrimary}" />
+    Text="Company Updates"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="{StaticResource TextPrimary}" />
 
-            <Border
-                Style="{StaticResource DashboardCard}">
-
-                <Border.StrokeShape>
-                    <RoundRectangle CornerRadius="20"/>
-                </Border.StrokeShape>
-
-                <VerticalStackLayout>
-
-                    <Label
-                        Text="🚀 New Shipment Tracking Module Released"
-                        FontSize="18"
-                        FontAttributes="Bold"
-                        TextColor="{StaticResource TextPrimary}" />
-
-                    <Label
-                        Text="Users can now monitor shipment movement in real-time with enhanced tracking and delivery visibility."
-                        TextColor="{StaticResource TextSecondary}" />
-
-                </VerticalStackLayout>
-
-            </Border>
+            <VerticalStackLayout
+    x:Name="PostsContainer"
+    Spacing="10">
+            </VerticalStackLayout>
 
         </VerticalStackLayout>
 

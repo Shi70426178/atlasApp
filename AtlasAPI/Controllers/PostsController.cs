@@ -24,4 +24,14 @@ public class PostsController : ControllerBase
 
         return Ok(post);
     }
+
+    [HttpGet]
+    public IActionResult GetPosts()
+    {
+        var posts = _context.Posts
+            .OrderByDescending(x => x.CreatedDate)
+            .ToList();
+
+        return Ok(posts);
+    }
 }

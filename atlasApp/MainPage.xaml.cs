@@ -9,7 +9,7 @@ public partial class MainPage : ContentPage
     HttpClient client = new HttpClient(
      new AndroidMessageHandler());
 
-    string baseUrl = "http://192.168.1.198:5223/api/auth/";
+    string baseUrl = "http://192.168.31.96:5223/api/auth/";
 
     public MainPage()
     {

@@ -28,7 +28,7 @@ public partial class CreatePostPage : ContentPage
             using HttpClient client = new();
 
             var response = await client.PostAsJsonAsync(
-    $"{ApiConfig.Servers[0]}api/posts/create",
+    $"{ApiConfig.BaseUrl}api/posts",
     request);
 
             if (response.IsSuccessStatusCode)

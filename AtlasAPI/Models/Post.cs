@@ -1,8 +1,8 @@
-﻿using AtlasAPI.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AtlasAPI.Models
-
 {
+    [Table("tblPosts")]
     public class Post
     {
         public int Id { get; set; }

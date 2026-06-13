@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.WebHost.UseUrls(
     "http://0.0.0.0:5223",
-    "http://192.168.1.198:5223");
+    "http://192.168.31.96:5223");
 
 builder.Services.AddControllers();
 
