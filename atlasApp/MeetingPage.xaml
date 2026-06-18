@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="atlasApp.MeetingPage"
+    Title="Meeting Form"
+    BackgroundColor="#F8FAFC">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="18">
+
+            <!-- Header -->
+            <Frame
+                CornerRadius="18"
+                Padding="15"
+                BackgroundColor="#2563EB">
+
+                <Label
+                    Text="Twig Talk Meeting Form"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    HorizontalOptions="Center"/>
+
+            </Frame>
+
+            <!-- Meeting Information -->
+
+            <Label
+                Text="Meeting Information"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <DatePicker x:Name="dpMeetingDate"/>
+
+            <TimePicker x:Name="tpMeetingTime"/>
+
+            <Entry
+                x:Name="txtLocation"
+                Placeholder="Location"/>
+
+            <!-- Company Details -->
+
+            <Label
+                Text="Company Details"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtCompanyName"
+                Placeholder="Company Name"/>
+
+            <Entry
+                x:Name="txtCity"
+                Placeholder="City"/>
+
+            <Entry
+                x:Name="txtCountry"
+                Placeholder="Country"/>
+
+            <Entry
+                x:Name="txtContactPerson"
+                Placeholder="Contact Person"/>
+
+            <Entry
+                x:Name="txtOurRepresentative"
+                Placeholder="Our Representative"/>
+
+            <Entry
+                x:Name="txtRequestedBy"
+                Placeholder="Requested By"/>
+
+            <!-- Company Brief -->
+
+            <Editor
+                x:Name="txtCompanyBrief"
+                Placeholder="Company Brief"
+                HeightRequest="100"/>
+
+            <!-- Checkboxes -->
+
+            <Label
+                Text="Business Information"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <HorizontalStackLayout Spacing="20">
+
+                <CheckBox x:Name="chkWorking"/>
+                <Label Text="Working"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="20">
+
+                <CheckBox x:Name="chkIndiaBusiness"/>
+                <Label Text="India Business"/>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="20">
+
+                <CheckBox x:Name="chkNepalBusiness"/>
+                <Label Text="Nepal Business"/>
+
+            </HorizontalStackLayout>
+
+            <!-- Logistics -->
+
+            <Label
+                Text="Logistics Information"
+                FontSize="20"
+                FontAttributes="Bold"/>
+
+            <Editor
+                x:Name="txtAgentsCoreStrength"
+                Placeholder="Agents Core Strength"
+                HeightRequest="80"/>
+
+            <Entry
+                x:Name="txtOwnLCL"
+                Placeholder="Own LCL"/>
+
+            <Entry
+                x:Name="txtMajorTradeLanes"
+                Placeholder="Major Trade Lanes"/>
+
+            <Entry
+                x:Name="txtAirPercentage"
+                Placeholder="Air Percentage"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtSeaPercentage"
+                Placeholder="Sea Percentage"
+                Keyboard="Numeric"/>
+
+            <!-- Meeting Grid -->
+
+            <Frame
+                CornerRadius="18"
+                Padding="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+
+                    <Label
+                        Text="Volume Grid"
+                        FontSize="20"
+                        FontAttributes="Bold"/>
+
+                    <!-- Add Grid Row -->
+
+                    <Button
+                        Text="+ Add Row"
+                        Clicked="AddGridRow_Clicked"
+                        BackgroundColor="#2563EB"
+                        TextColor="White"/>
+
+                    <!-- Dynamic Grid Container -->
+
+                    <ScrollView HeightRequest="300">
+
+                        <VerticalStackLayout
+                            x:Name="GridContainer"
+                            Spacing="10"/>
+
+                    </ScrollView>
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <!-- Save Button -->
+
+            <Button
+                Text="Save Meeting"
+                HeightRequest="55"
+                FontSize="18"
+                FontAttributes="Bold"
+                BackgroundColor="#10B981"
+                TextColor="White"
+                Clicked="SaveMeeting_Clicked"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

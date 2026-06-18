@@ -59,6 +59,11 @@
             ContentTemplate="{DataTemplate local:ProfilePage}" />
     </FlyoutItem>
 
+    <FlyoutItem Title="Meetings">
+        <ShellContent
+        Route="MeetingPage"
+        ContentTemplate="{DataTemplate local:MeetingPage}" />
+    </FlyoutItem>
     <FlyoutItem Title="Settings">
         <ShellContent
             ContentTemplate="{DataTemplate local:SettingsPage}" />

@@ -3581,11 +3581,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\AtlasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasAPI\\AtlasAPI.csproj",
       "projectName": "AtlasAPI",
-      "projectPath": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\AtlasAPI.csproj",
+      "projectPath": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasAPI\\AtlasAPI.csproj",
       "packagesPath": "C:\\Users\\EDatapings\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\obj\\",
+      "outputPath": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3671,7 +3671,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

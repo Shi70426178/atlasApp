@@ -3,64 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\meetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\meetingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\meetingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\meetingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\meetinglistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\meetinglistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\models\\meetinggriddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\models\\meetinggriddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\models\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\models\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\meetinglistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\meetinglistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\controllers\\meetingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\dtos\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\dtos\\meetingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\models\\meeting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\models\\meetinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\models\\meetinggrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\platforms\\android\\androidmanifest.xml||{6B79B2C4-8503-4A04-8248-ADCEF2B49CB1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\models\\createpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\models\\createpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\createpostpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\createpostpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -69,6 +97,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\atlasapp\\services\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\atlasapp\\services\\apiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\createpostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\createpostpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B42A15C5-6073-63C7-CD67-CA52CBF05FBD}|AtlasAPI\\AtlasAPI.csproj|solutionrelative:atlasapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|c:\\users\\edatapings\\desktop\\atlassolution\\atlasapp\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E10AA7A-CDB9-CC41-17E8-39C1725FC734}|atlasApp\\atlasApp.csproj|solutionrelative:atlasapp\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,147 +134,208 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\DashboardPage.xaml.cs",
-              "RelativeDocumentMoniker": "atlasApp\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\DashboardPage.xaml.cs",
-              "RelativeToolTip": "atlasApp\\DashboardPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:33:54.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "atlasApp\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\DashboardPage.xaml",
-              "RelativeToolTip": "atlasApp\\DashboardPage.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-03T11:33:28.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "atlasApp\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MauiProgram.cs",
-              "RelativeToolTip": "atlasApp\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T11:23:02.62Z"
+              "Title": "MeetingListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingListPage.xaml",
+              "RelativeDocumentMoniker": "atlasApp\\MeetingListPage.xaml",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingListPage.xaml",
+              "RelativeToolTip": "atlasApp\\MeetingListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T10:23:58.305Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SignupPage.xaml",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml",
-              "RelativeDocumentMoniker": "atlasApp\\SignupPage.xaml",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml",
-              "RelativeToolTip": "atlasApp\\SignupPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-03T09:36:43.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignupPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml.cs",
-              "RelativeDocumentMoniker": "atlasApp\\SignupPage.xaml.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml.cs",
-              "RelativeToolTip": "atlasApp\\SignupPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAARAAAAAAAAAA==",
+              "Title": "MeetingListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingListPage.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\MeetingListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingListPage.xaml.cs",
+              "RelativeToolTip": "atlasApp\\MeetingListPage.xaml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAmwHAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T09:37:05.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AtlasAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Program.cs",
-              "RelativeToolTip": "AtlasAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T07:19:45.422Z",
+              "WhenOpened": "2026-06-16T11:30:33.281Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "AtlasAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "AtlasAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "atlasApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml",
+              "RelativeToolTip": "atlasApp\\AppShell.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T09:51:31.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeetingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingPage.xaml",
+              "RelativeDocumentMoniker": "atlasApp\\MeetingPage.xaml",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingPage.xaml",
+              "RelativeToolTip": "atlasApp\\MeetingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T10:16:31.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeetingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingPage.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\MeetingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MeetingPage.xaml.cs",
+              "RelativeToolTip": "atlasApp\\MeetingPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T10:48:14.697Z",
+              "WhenOpened": "2026-06-16T10:19:26.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MeetingController.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\MeetingController.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Controllers\\MeetingController.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\MeetingController.cs",
+              "RelativeToolTip": "AtlasAPI\\Controllers\\MeetingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T10:01:01.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MeetingDto.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\MeetingDto.cs",
+              "RelativeDocumentMoniker": "atlasApp\\Models\\MeetingDto.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\MeetingDto.cs",
+              "RelativeToolTip": "atlasApp\\Models\\MeetingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T11:33:49.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeetingGridDto.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\MeetingGridDto.cs",
+              "RelativeDocumentMoniker": "atlasApp\\Models\\MeetingGridDto.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\MeetingGridDto.cs",
+              "RelativeToolTip": "atlasApp\\Models\\MeetingGridDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T11:50:44.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeetingDto.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\DTOs\\MeetingDto.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\DTOs\\MeetingDto.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\DTOs\\MeetingDto.cs",
+              "RelativeToolTip": "AtlasAPI\\DTOs\\MeetingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T11:34:11.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-06-03T10:32:30.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "atlasApp\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "atlasApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T10:34:49.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "atlasApp\\Platforms\\Android\\AndroidManifest.xml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-06-02T09:23:54.194Z"
+              "Title": "Meeting.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\Meeting.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Models\\Meeting.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\Meeting.cs",
+              "RelativeToolTip": "AtlasAPI\\Models\\Meeting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:59:51.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "atlasApp\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml.cs",
-              "RelativeToolTip": "atlasApp\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\Post.cs",
+              "RelativeToolTip": "AtlasAPI\\Models\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T09:39:40.406Z"
+              "WhenOpened": "2026-06-15T11:04:46.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "MeetingGrid.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\MeetingGrid.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Models\\MeetingGrid.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Models\\MeetingGrid.cs",
+              "RelativeToolTip": "AtlasAPI\\Models\\MeetingGrid.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T12:00:45.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Program.cs",
+              "RelativeToolTip": "AtlasAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:46:19.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AtlasAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T12:01:30.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "atlasApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MainPage.xaml",
+              "RelativeToolTip": "atlasApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-16T09:52:26.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "atlasApp\\App.xaml.cs",
@@ -226,59 +343,64 @@
               "RelativeToolTip": "atlasApp\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T09:38:39.828Z"
+              "WhenOpened": "2026-06-16T09:51:37.834Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\App.xaml",
-              "RelativeDocumentMoniker": "atlasApp\\App.xaml",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\App.xaml",
-              "RelativeToolTip": "atlasApp\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-02T09:24:08.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainApplication.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\MainApplication.cs",
-              "RelativeDocumentMoniker": "atlasApp\\Platforms\\Android\\MainApplication.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\MainApplication.cs",
-              "RelativeToolTip": "atlasApp\\Platforms\\Android\\MainApplication.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "atlasApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T09:24:02.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "atlasApp\\Platforms\\Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Platforms\\Android\\MainActivity.cs",
-              "RelativeToolTip": "atlasApp\\Platforms\\Android\\MainActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T09:24:00.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AtlasAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AtlasAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-02T09:23:22.835Z"
+              "WhenOpened": "2026-06-10T10:51:51.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "atlasApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "atlasApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T10:37:35.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "atlasApp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:51:56.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "atlasApp\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\Post.cs",
+              "RelativeToolTip": "atlasApp\\Models\\Post.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAzwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:04:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AtlasAPI\\appsettings.json",
@@ -286,7 +408,130 @@
               "RelativeToolTip": "AtlasAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-02T09:23:06.867Z"
+              "WhenOpened": "2026-06-15T10:47:33.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreatePostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\CreatePostRequest.cs",
+              "RelativeDocumentMoniker": "atlasApp\\Models\\CreatePostRequest.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\Models\\CreatePostRequest.cs",
+              "RelativeToolTip": "atlasApp\\Models\\CreatePostRequest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T11:38:47.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreatePostPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\CreatePostPage.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\CreatePostPage.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\CreatePostPage.xaml.cs",
+              "RelativeToolTip": "atlasApp\\CreatePostPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:29:29.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AtlasAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AtlasAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-15T10:47:43.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\atlasApp\\Services\\ApiConfig.cs",
+              "RelativeDocumentMoniker": "atlasApp\\atlasApp\\Services\\ApiConfig.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\atlasApp\\Services\\ApiConfig.cs",
+              "RelativeToolTip": "atlasApp\\atlasApp\\Services\\ApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T10:28:28.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "AtlasAPI\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:10:53.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreatePostPage.xaml",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\CreatePostPage.xaml",
+              "RelativeDocumentMoniker": "atlasApp\\CreatePostPage.xaml",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\CreatePostPage.xaml",
+              "RelativeToolTip": "atlasApp\\CreatePostPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-10T11:29:02.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "atlasApp\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\LoginResponse.cs",
+              "RelativeToolTip": "atlasApp\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:55:12.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AtlasAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\AtlasAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AtlasAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAvwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:00:17.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\UserSession.cs",
+              "RelativeDocumentMoniker": "atlasApp\\UserSession.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\UserSession.cs",
+              "RelativeToolTip": "atlasApp\\UserSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T08:38:15.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SignupPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml.cs",
+              "RelativeDocumentMoniker": "atlasApp\\SignupPage.xaml.cs",
+              "ToolTip": "C:\\Users\\EDatapings\\Desktop\\AtlasSolution\\atlasApp\\SignupPage.xaml.cs",
+              "RelativeToolTip": "atlasApp\\SignupPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T11:14:51.091Z"
             }
           ]
         }

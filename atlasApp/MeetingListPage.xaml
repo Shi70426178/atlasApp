@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="atlasApp.MeetingListPage"
+    Title="Meetings"
+    BackgroundColor="#F8FAFC">
+
+    <Grid Padding="15">
+
+        <RefreshView
+            x:Name="RefreshControl"
+            Refreshing="RefreshControl_Refreshing">
+
+            <ScrollView>
+
+                <VerticalStackLayout
+                    Spacing="15">
+
+                    <!-- Header -->
+
+                    <Label
+                        Text="Twig Meetings"
+                        FontSize="28"
+                        FontAttributes="Bold"
+                        TextColor="#0F172A"/>
+
+                    <Label
+                        Text="All client meeting records"
+                        FontSize="14"
+                        TextColor="#64748B"/>
+
+                    <!-- Add Button -->
+
+                    <Button
+                        Text="+ Create New Meeting"
+                        HeightRequest="50"
+                        FontAttributes="Bold"
+                        BackgroundColor="#2563EB"
+                        TextColor="White"
+                        Clicked="AddMeeting_Clicked"/>
+
+                    <!-- Dynamic Cards -->
+
+                    <VerticalStackLayout
+                        x:Name="MeetingContainer"
+                        Spacing="12"/>
+
+                </VerticalStackLayout>
+
+            </ScrollView>
+
+        </RefreshView>
+
+        <!-- Loading -->
+
+        <ActivityIndicator
+            x:Name="Loader"
+            IsVisible="False"
+            IsRunning="False"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
+
+    </Grid>
+
+</ContentPage>
