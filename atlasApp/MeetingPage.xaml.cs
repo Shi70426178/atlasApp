@@ -247,8 +247,8 @@ public partial class MeetingPage : ContentPage
         catch (Exception ex)
         {
             await DisplayAlertAsync(
-                "Error",
-                ex.Message,
+                "Full Error",
+                ex.ToString(),
                 "OK");
         }
     }

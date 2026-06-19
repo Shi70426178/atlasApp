@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="atlasApp.MeetingListPage"
     Title="Meetings"
-    BackgroundColor="#F8FAFC">
+    BackgroundColor="White">
 
     <Grid Padding="15">
 
@@ -15,8 +15,7 @@
 
             <ScrollView>
 
-                <VerticalStackLayout
-                    Spacing="15">
+                <VerticalStackLayout Spacing="15">
 
                     <!-- Header -->
 
@@ -24,14 +23,14 @@
                         Text="Twig Meetings"
                         FontSize="28"
                         FontAttributes="Bold"
-                        TextColor="#0F172A"/>
+                        TextColor="Black" />
 
                     <Label
                         Text="All client meeting records"
                         FontSize="14"
-                        TextColor="#64748B"/>
+                        TextColor="Black" />
 
-                    <!-- Add Button -->
+                    <!-- Add Meeting Button -->
 
                     <Button
                         Text="+ Create New Meeting"
@@ -39,13 +38,42 @@
                         FontAttributes="Bold"
                         BackgroundColor="#2563EB"
                         TextColor="White"
-                        Clicked="AddMeeting_Clicked"/>
+                        CornerRadius="10"
+                        Clicked="AddMeeting_Clicked" />
 
-                    <!-- Dynamic Cards -->
+                    <!-- Meeting Cards -->
+
+                    <Frame
+                        BackgroundColor="#F8FAFC"
+                        BorderColor="#E2E8F0"
+                        CornerRadius="12"
+                        Padding="12"
+                        HasShadow="False"
+                        IsVisible="False"
+                        x:Name="SampleCard">
+
+                        <VerticalStackLayout>
+
+                            <Label
+                                Text="Meeting Title"
+                                FontSize="18"
+                                FontAttributes="Bold"
+                                TextColor="Black" />
+
+                            <Label
+                                Text="Meeting Description"
+                                FontSize="14"
+                                TextColor="#374151" />
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                    <!-- Dynamic Meetings -->
 
                     <VerticalStackLayout
                         x:Name="MeetingContainer"
-                        Spacing="12"/>
+                        Spacing="12" />
 
                 </VerticalStackLayout>
 
@@ -53,14 +81,15 @@
 
         </RefreshView>
 
-        <!-- Loading -->
+        <!-- Loader -->
 
         <ActivityIndicator
             x:Name="Loader"
             IsVisible="False"
             IsRunning="False"
+            Color="#2563EB"
             HorizontalOptions="Center"
-            VerticalOptions="Center"/>
+            VerticalOptions="Center" />
 
     </Grid>
 

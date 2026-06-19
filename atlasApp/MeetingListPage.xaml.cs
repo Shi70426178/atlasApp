@@ -95,14 +95,14 @@ public partial class MeetingListPage : ContentPage
         {
             Text = $"📍 {meeting.TM_Location}",
             FontSize = 14,
-            TextColor = Colors.Gray
+            TextColor = Colors.Black
         };
 
         var contact = new Label
         {
             Text = $"👤 {meeting.TM_ContactPerson}",
             FontSize = 14,
-            TextColor = Colors.Gray
+            TextColor = Colors.Black
         };
 
         var date = new Label
@@ -110,7 +110,7 @@ public partial class MeetingListPage : ContentPage
             Text =
                 $"📅 {meeting.TM_MeetingDate:dd-MMM-yyyy}",
             FontSize = 13,
-            TextColor = Colors.DarkGray
+            TextColor = Colors.Black
         };
 
         // delete button
@@ -143,7 +143,8 @@ public partial class MeetingListPage : ContentPage
         {
             CornerRadius = 18,
             Padding = 15,
-            BackgroundColor = Colors.White,
+            BackgroundColor = Color.FromArgb("#F8FAFC"),
+            BorderColor = Color.FromArgb("#CBD5E1"),
             HasShadow = true,
 
             Content = new VerticalStackLayout

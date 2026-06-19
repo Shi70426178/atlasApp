@@ -1,7 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AtlasAPI.Models
 {
+    [Table("TblMeetingShi")]
+
     public class Meeting
     {
         [Key]
@@ -35,6 +38,7 @@ namespace AtlasAPI.Models
         public int TM_CreatedBy { get; set; }
         public DateTime TM_CreatedOn { get; set; }
 
-        public List<MeetingGrid> MeetingGrids { get; set; }
+        //public List<MeetingGrid> MeetingGrids { get; set; }
+        public List<MeetingGrid> MeetingGrids { get; set; } = new List<MeetingGrid>();
     }
 }

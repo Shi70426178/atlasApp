@@ -51,16 +51,19 @@ public class MeetingController : ControllerBase
             };
 
             // Add Grid rows
-            foreach (var item in dto.MeetingGrids)
+            if (dto.MeetingGrids != null)
             {
-                meeting.MeetingGrids.Add(new MeetingGrid
+                foreach (var item in dto.MeetingGrids)
                 {
-                    TMG_TradeType = item.TMG_TradeType,
-                    TMG_TransportMode = item.TMG_TransportMode,
-                    TMG_VolumeYear = item.TMG_VolumeYear,
-                    TMG_Nomination = item.TMG_Nomination,
-                    TMG_Freehand = item.TMG_Freehand
-                });
+                    meeting.MeetingGrids.Add(new MeetingGrid
+                    {
+                        TMG_TradeType = item.TMG_TradeType,
+                        TMG_TransportMode = item.TMG_TransportMode,
+                        TMG_VolumeYear = item.TMG_VolumeYear,
+                        TMG_Nomination = item.TMG_Nomination,
+                        TMG_Freehand = item.TMG_Freehand
+                    });
+                }
             }
 
             _context.Meetings.Add(meeting);
@@ -74,7 +77,7 @@ public class MeetingController : ControllerBase
         }
         catch (Exception ex)
         {
-            return BadRequest(ex.Message);
+            return BadRequest(ex.ToString());
         }
     }
 
@@ -91,7 +94,8 @@ public class MeetingController : ControllerBase
     }
 
     // GET SINGLE MEETING
-    [HttpGet("{id}")]
+    // GET SINGLE MEETING
+    [HttpGet("{id:int}")]
     public async Task<IActionResult> GetMeeting(int id)
     {
         var data = await _context.Meetings
@@ -105,7 +109,8 @@ public class MeetingController : ControllerBase
     }
 
     // DELETE MEETING
-    [HttpDelete("{id}")]
+    // DELETE MEETING
+    [HttpDelete("{id:int}")]
     public async Task<IActionResult> DeleteMeeting(int id)
     {
         var meeting = await _context.Meetings

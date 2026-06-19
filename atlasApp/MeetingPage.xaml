@@ -32,79 +32,111 @@
             <Label
                 Text="Meeting Information"
                 FontSize="20"
-                FontAttributes="Bold"/>
+                FontAttributes="Bold"
+                TextColor="Black"/>
 
-            <DatePicker x:Name="dpMeetingDate"/>
+            <DatePicker
+                x:Name="dpMeetingDate"
+                TextColor="Black"/>
 
-            <TimePicker x:Name="tpMeetingTime"/>
+            <TimePicker
+                x:Name="tpMeetingTime"
+                TextColor="Black"/>
 
             <Entry
                 x:Name="txtLocation"
-                Placeholder="Location"/>
+                Placeholder="Location"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <!-- Company Details -->
 
             <Label
                 Text="Company Details"
                 FontSize="20"
-                FontAttributes="Bold"/>
+                FontAttributes="Bold"
+                TextColor="Black"/>
 
             <Entry
                 x:Name="txtCompanyName"
-                Placeholder="Company Name"/>
+                Placeholder="Company Name"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtCity"
-                Placeholder="City"/>
+                Placeholder="City"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtCountry"
-                Placeholder="Country"/>
+                Placeholder="Country"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtContactPerson"
-                Placeholder="Contact Person"/>
+                Placeholder="Contact Person"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtOurRepresentative"
-                Placeholder="Our Representative"/>
+                Placeholder="Our Representative"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtRequestedBy"
-                Placeholder="Requested By"/>
+                Placeholder="Requested By"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <!-- Company Brief -->
 
             <Editor
                 x:Name="txtCompanyBrief"
                 Placeholder="Company Brief"
-                HeightRequest="100"/>
+                HeightRequest="100"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <!-- Checkboxes -->
 
             <Label
                 Text="Business Information"
                 FontSize="20"
-                FontAttributes="Bold"/>
+                FontAttributes="Bold"
+                TextColor="Black"/>
 
             <HorizontalStackLayout Spacing="20">
 
                 <CheckBox x:Name="chkWorking"/>
-                <Label Text="Working"/>
+
+                <Label
+                    Text="Working"
+                    TextColor="Black"/>
 
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="20">
 
                 <CheckBox x:Name="chkIndiaBusiness"/>
-                <Label Text="India Business"/>
+
+                <Label
+                    Text="India Business"
+                    TextColor="Black"/>
 
             </HorizontalStackLayout>
 
             <HorizontalStackLayout Spacing="20">
 
                 <CheckBox x:Name="chkNepalBusiness"/>
-                <Label Text="Nepal Business"/>
+
+                <Label
+                    Text="Nepal Business"
+                    TextColor="Black"/>
 
             </HorizontalStackLayout>
 
@@ -113,30 +145,41 @@
             <Label
                 Text="Logistics Information"
                 FontSize="20"
-                FontAttributes="Bold"/>
+                FontAttributes="Bold"
+                TextColor="Black"/>
 
             <Editor
                 x:Name="txtAgentsCoreStrength"
                 Placeholder="Agents Core Strength"
-                HeightRequest="80"/>
+                HeightRequest="80"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtOwnLCL"
-                Placeholder="Own LCL"/>
+                Placeholder="Own LCL"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtMajorTradeLanes"
-                Placeholder="Major Trade Lanes"/>
+                Placeholder="Major Trade Lanes"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtAirPercentage"
                 Placeholder="Air Percentage"
-                Keyboard="Numeric"/>
+                Keyboard="Numeric"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <Entry
                 x:Name="txtSeaPercentage"
                 Placeholder="Sea Percentage"
-                Keyboard="Numeric"/>
+                Keyboard="Numeric"
+                TextColor="Black"
+                PlaceholderColor="Gray"/>
 
             <!-- Meeting Grid -->
 
@@ -150,7 +193,8 @@
                     <Label
                         Text="Volume Grid"
                         FontSize="20"
-                        FontAttributes="Bold"/>
+                        FontAttributes="Bold"
+                        TextColor="Black"/>
 
                     <!-- Add Grid Row -->
 
